@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +24,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+.bottomClick{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.bottomClick button{
+  background-color: blue;
+  padding: 7px 25px;
+  color: #fff;
+  border-radius: 5px;
 }
